@@ -1,3 +1,10 @@
+https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
+function circleCircumference(circle) {
+  return  2*(Math.PI)*circle.radius;
+}
+
+
+
 // https://www.codewars.com/kata/544675c6f971f7399a000e79
 const stringToNumber = function (str) {
   return +str;
