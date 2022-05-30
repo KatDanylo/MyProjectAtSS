@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table,tr,td{
-           border: 2px solid green;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>MyProject</title>
     <script src="https://kit.fontawesome.com/5619db74ed.js" crossorigin="anonymous"></script>
 </head>
@@ -76,6 +72,59 @@
         <aside>aside</aside>
         <footer>footer</footer>
     </div>
+    <section class="pricing">
+        <div class="pricing_discribe">
+            <h3 class="pricing_h3">PRICING</h3>
+            <img src="/img/optimized_after_maijor_word.png" alt="Wite Line" width="400px">
+            <p class="pricing_p">In our assortment, there are dozens of different cigars. To learn more about prices, contact our manager.</p>
+        </div>
+        <div>
+            <table class="pricing_table" >  
+                <tr>
+                    <td ><img src="/img/icons/icon1.svg" alt="circle"> </td>
+                    <td >ESTANDAR </td>
+                    <td >10-Pack </td>
+                    <td >$12|per cigar </td>
+                    <td >ORDER</td>
+                </tr>
+                <tr>
+                    <td ><img src="/img/icons/icon2.svg" alt="circle"> </td>
+                    <td >RESERVA </td>
+                    <td >24-Pack </td>
+                    <td >$20|per cigar </td>
+                    <td >ORDER</td>
+                </tr>
+                <tr>
+                    <td > <img src="/img/icons/icon3.svg" alt="circle"> </td>
+                    <td >LIMITADA </td>
+                    <td >6-Pack </td>
+                    <td >$27|per cigar </td>
+                    <td >ORDER</td>
+                </tr>
+            </table>
+            </div>
+    </section>
+        <!-- Start Modal Window -->
+        <div class="modal">
+            <div class="modal_inner">
+                <div class="modal_top">
+                    <div class="modal_title">
+                        <span>some text</span>
+                        <button class="modal_close">Close</button>
+                        <div class="modal_content">
+                            <p>lorem</p>
+                        <div class="modal_bottom">
+                            <button class="modal_btn btn_dark">
+                                Order
+                            </button>
 
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Modal Window -->
+    <script src="main.js"></script>
 </body>
 </html>
