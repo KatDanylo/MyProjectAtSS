@@ -4,3 +4,51 @@ table,tr,td{
 
 
  
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: darkslateblue;
+}
+.modal_inner{
+    height: 100%;
+    max-width: 800px;
+    background-color: goldenrod;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
+}
+.modal_top{
+    background-color: darkgray;
+}
+.modal_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.modal_close{
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.modal_content{
+    padding: 0 15px;
+    line-height: 1.5;
+}
+.modal_bottom{
+    text-align: right;
+    padding: 0 15px 15px 15px;
+}
+.modal_btn{
+    display: inline-block;
+    cursor: pointer;
+}
